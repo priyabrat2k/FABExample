@@ -23,7 +23,7 @@ public class CircularFloatingActionMenuActivity extends AppCompatActivity implem
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_curcular_floating_action_menu);
         // Creating Floating Buttons
         ImageView imageView = new ImageView(this);
         imageView.setImageResource(R.drawable.ic_fav);
